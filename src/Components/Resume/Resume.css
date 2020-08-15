@@ -1,0 +1,127 @@
+#resume h3, #resume p {
+	margin: 0;
+}
+
+#resume p.info {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bottom_line {
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.row_work {
+	width: 90%;
+  	max-width: 1020px;
+  	margin: 0 auto;
+  	margin-bottom: 48px;
+   	padding-bottom: 24px;
+}
+
+.container2 {
+	display: grid;
+	grid-template-rows: 10% 30% 30% 30%;
+	grid-template-columns: 31% 31% 31%;
+	grid-row-gap: 30px;
+	grid-column-gap: 20px;
+	padding-bottom: 115px;
+}
+
+.experience_title {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: flex;
+	align-items: center;
+}
+
+.work_image {
+	width: 275px;
+}
+
+.pic_container {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.descr {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cardinal_descr {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.cardinal_pic {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.afb_descr {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	text-align: right;
+}
+.afb_pic {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+
+.franks_descr {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 4;
+}
+
+.franks_pic {
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 4;
+}
+
+@media only screen and (max-width: 810px) {
+	.container2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 50px;
+	}
+
+	.descr {
+		align-items: center;
+	}
+
+	#resume p {
+		text-align: center;
+	}
+
+	.pic_container {
+		margin-bottom: 30px;
+		padding-bottom: 35px;
+		border-bottom: 1px solid #E8E8E8;
+	}
+
+	#resume .bottom_line {
+		visibility: hidden;
+	}
+
+
+
+}
+
