@@ -1,0 +1,134 @@
+{
+  "main": {
+    "name":"David Carrera",
+    "description":"I am a sophomore at Columbia University studying Computer Science",
+    "image":"profilepic.jpg",
+    "bio":"I am a sophomore at Columbia University studying Applied Mathematics and Computer Science. I have found that the combination of these disciplines complements my interests - technology and investment - better than any other.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"github",
+        "url":"https://github.com/davidcarr3ra",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/davidcarrera99/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/david.carrera99/",
+        "className":"fa fa-facebook"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Columbia University",
+        "degree":"B.S. Computer Science",
+        "graduated":" Expected Graduation: May 2023",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"School #1 Maybe College?",
+        "degree":"What did you study 101",
+        "graduated":"March 2003",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Cardinal Sol",
+        "title":"Quantitative Software Engineering Intern",
+        "years":"June 2020 - Present",
+        "location":"New York",
+        "description":"Developing a quantitative trading strategy with a team of interns. The software is written in Python and implements data cleaning and machine learning algorithms from scratch to predict the movement of major market indices based on various consumer sentiment metrics. We manage overfitting using feature selection techniques, with each model ranked by k-fold cross validation score."
+      },
+      {
+        "company":"AFB Bank",
+        "title":"Analyst Intern",
+        "years":"September 2018 - December 2018",
+        "location":"Baku, Azerbaijan",
+        "description":"Under guidance of the head of the Treasury Department, I carried out research on public equities to determine eligibility for investment. Provided input on investment portfolio to improve the Treasury’s returns over the long term, suggesting a more value-oriented approach. Shadowed a forex trader, learned the basics of technical analysis."
+      },
+      {
+        "company": "Frank's International",
+        "title": "Analyst Intern",
+        "years": "Summer 2018",
+        "location":"Baku, Azerbaijan",
+        "description": "Analyzed quarterly reports, noticed inefficiency arising from oil rig selection. Developed a financial model using Excel forecasting EBITDA based on optimal oil rig combinations, presented it to district manager Adam Stanford. Model was used in executive decisions concerning rig selection"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java",
+        "level":"80%"
+      },
+      {
+        "name":"Python",
+        "level":"75%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"70%"
+      },
+      {
+        "name":"HTML5",
+        "level":"65%"
+      },
+      {
+        "name":"CSS3",
+        "level":"65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
