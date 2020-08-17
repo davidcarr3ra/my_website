@@ -64,3 +64,4 @@ class Resume2 extends Component {
 }
 
 export default Resume2;
+
