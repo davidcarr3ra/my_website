@@ -19,7 +19,7 @@ const Bookshelf = () => {
 		          	<li><p className="info mb0">Security Analysis<span>&bull;</span> <em className="author">Benjamin Graham and David Dodd</em></p></li>
 		          	<li><p className="info mb0">Deep Work<span>&bull;</span> <em className="author">Cal Newport</em></p></li>
 		          	<li><p className="info mb0">Fooled by Randomness<span>&bull;</span> <em className="author">Nassim Nicholas Taleb</em></p></li>
-		          	<li><p className="info mb0">The Intelligent Investor<span>&bull;</span> <em className="author">Benjamin Graham</em></p></li>
+		          	<li><p className="info mb0">Finance and the Good Society<span>&bull;</span> <em className="author">Robert J. Shiller</em></p></li>
 		          	<li><p className="info mb0">The Black Swan<span>&bull;</span> <em className="author">Nassim Nicholas Taleb</em></p></li>
 		          	<li><p className="info mb0">Principles<span>&bull;</span> <em className="author">Ray Dalio</em></p></li>
 		          	<li><p className="info mb0">Introduction to Statistical Learning<span>&bull;</span> <em className="author">Gareth M. James</em></p></li>
